@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./components/Navbar";
+import Hello from "./components/Hello/Hello"
+import AboutMe from "./components/AboutMe/AboutMe"
+import Contact from "./components/Contact/Contact";
+import Thanks from "./components/Contact/Thanks";
+import Projects from "./components/Projects/Projects";
+import FindMe from "./components/FindMe";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.body.classList.add("hide-scrollbar");
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col min-h-screen bg-dark-500 lg:bg-dark-600">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Hello />} />
+        <Route path="/about-me/*" element={<AboutMe />} />
+        <Route path="/projects/*" element={<Projects />} />
+        <Route path="/contact-me" element={<Contact />} />
+        <Route path="/contact-me/thanks" element={<Thanks />} />
+      </Routes>
+      <FindMe />
     </div>
   );
 }
