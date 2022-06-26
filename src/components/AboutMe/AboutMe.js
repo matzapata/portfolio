@@ -1,4 +1,4 @@
-import { FileTree, FolderLink, FileLink, File } from "../FileSystem";
+import { FileTree, FolderLink, FileLink } from "../FileSystem";
 import { Routes, Route } from "react-router-dom";
 import Breadcrumb from "../Breadcrumb";
 import Skills from "./content/Skills";

@@ -9,7 +9,7 @@ export default function Hello() {
                 <p className="text-[#43D9AD] font-fira-code text-xl mt-2">{">"} Full stack developer</p>
             </div>
             <div>
-                <p className="text-[#607B96] font-fira-code mb-4">// find my profile on Github:</p>
+                <p className="text-[#607B96] font-fira-code mb-4">{"// find my profile on Github:"}</p>
                 <p className="text-white font-fira-code"><span className="text-[#4D5BCE]">const</span> <span className="text-[#43D9AD]">githubLink</span> = <span className="text-[#E99287]">"https://github.com/matzapata"</span></p>
             </div>
             <img src={bgBlurMobile} className="fixed pointer-events-none left-1/3 top-[15%] w-2/3 filter blur-3xl" alt="background blur"/>
