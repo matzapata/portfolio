@@ -1,9 +1,11 @@
 import { MenuAlt1Icon, FolderIcon } from "@heroicons/react/solid";
 import { DocumentIcon, ChatAltIcon } from "@heroicons/react/outline";
 import profileImage from "../img/profile.jpg";
-import { Link } from "react-router-dom";
+import { Link, useMatch } from "react-router-dom";
 
-export function FileLink({ name, active, commitMessage = "", to = "", lastChild = false }) {
+export function FileLink({ name, commitMessage = "", to = "", lastChild = false }) {
+    const active = useMatch(to)
+    
     return (
         <Link to={to}>
             <div className={`${!lastChild && "border-b"} border-dark-400 px-4 py-2 flex justify-between items-center`}>
@@ -18,7 +20,8 @@ export function FileLink({ name, active, commitMessage = "", to = "", lastChild 
     );
 }
 
-export function FolderLink({ name, active, commitMessage = "", to = "", lastChild = false }) {
+export function FolderLink({ name, commitMessage = "", to = "", lastChild = false }) {
+    const active = useMatch(to)
     return (
         <Link to={to}>
             <div className={`${!lastChild && "border-b"} border-dark-400 flex px-4 py-2 items-center justify-between`}>

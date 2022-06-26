@@ -1,7 +1,11 @@
 import { FileTree, FolderLink, FileLink, File } from "../FileSystem";
 import { Routes, Route } from "react-router-dom";
 import Breadcrumb from "../Breadcrumb";
-import College from "./content/College";
+import Skills from "./content/Skills";
+import Readme from "./content/Readme";
+import Interests from "./content/Interests";
+import Education from "./content/Education";
+import Experience from "./content/Experience";
 
 export default function AboutMe() {
     return (
@@ -9,23 +13,21 @@ export default function AboutMe() {
             <Breadcrumb current="_about-me" />
 
             <FileTree>
-                <FolderLink name="interests" active commitMessage="3 items" />
-                <FolderLink name="education" commitMessage="3 items" />
-                <FileLink name="College.md" to="college" commitMessage="new" />
-                <FileLink name="Henry.md" to="henry" commitMessage="updated proys" isLastChild />
+                <FolderLink name="Interests" to="/about-me/interests" commitMessage="updated proys" isLastChild />
+                <FolderLink name="Education" to="/about-me/education" commitMessage="3 items" />
+                <FolderLink name="Experience" to="/about-me/experience" commitMessage="3 items" />
+                <FolderLink name="Skills.md" to="/about-me/skills" commitMessage="new" />
+                <FileLink name="README.md" to="/about-me" commitMessage="3 items" />
             </FileTree>
 
             <Routes>
-                <Route path="" element={
-                    <File title="College.md" className="p-8 markdown-body" children={<College />} />
-
-                } />
-                <Route path="henry" element={
-                    <File title="Henry.md" className="p-8 pt-4 markdown-body" >
-                        <h1>Henry</h1>
-                    </File>
-                } />
+                <Route path="" element={<Readme />}/>
+                <Route path="skills" element={<Skills />}/>
+                <Route path="education" element={<Education />}/>
+                <Route path="interests" element={<Interests />}/>
+                <Route path="experience" element={<Experience />}/>
             </Routes>
+
         </>
     );
 }

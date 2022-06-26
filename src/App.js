@@ -7,6 +7,7 @@ import Thanks from "./components/Contact/Thanks";
 import Projects from "./components/Projects/Projects";
 import FindMe from "./components/FindMe";
 import { useEffect } from "react";
+import NotFound from "./components/NotFound";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/projects/*" element={<Projects />} />
         <Route path="/contact-me" element={<Contact />} />
         <Route path="/contact-me/thanks" element={<Thanks />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <FindMe />
     </div>

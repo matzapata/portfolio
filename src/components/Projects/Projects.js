@@ -1,7 +1,8 @@
-import { FileTree, FolderLink, FileLink, File } from "../FileSystem";
+import { FileTree, FileLink } from "../FileSystem";
 import { Routes, Route } from "react-router-dom";
 import Breadcrumb from "../Breadcrumb";
-import Project1 from "./Content/Project1";
+import Proy1 from "./Content/Proy1";
+import Proy2 from "./Content/Proy2";
 
 export default function AboutMe() {
     return (
@@ -9,21 +10,14 @@ export default function AboutMe() {
             <Breadcrumb current="_projects"/>
 
             <FileTree>
-                <FolderLink name="interests" active commitMessage="3 items"/>
-                <FolderLink name="education" commitMessage="3 items"/>
-                <FileLink name="College.md" to="college" commitMessage="new" />
-                <FileLink name="Henry.md" to="henry" commitMessage="updated proys" isLastChild />
+                <FileLink name="Proy1.md" to="/projects/proy1" commitMessage="new" />
+                <FileLink name="Proy2.md" to="/projects/proy2" commitMessage="updated proys" isLastChild />
             </FileTree>
 
             <Routes>
-                <Route path="" element={
-                    <File title="College.md" className="p-8 markdown-body" children={<Project1 />}/>
-                } />
-                <Route path="henry" element={
-                    <File title="Henry.md" className="p-8 markdown-body" >
-                        <h1>Henry</h1>
-                    </File>
-                } />
+                <Route path="" element={<Proy1 />} />
+                <Route path="proy1" element={<Proy1 />} />
+                <Route path="proy2" element={<Proy2 />} />
             </Routes>
         </>
     );
