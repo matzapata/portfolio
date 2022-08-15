@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .markdown-body {
+        @apply text-gray-300;
+    }
+    .markdown-body > h1 {
+        @apply mt-6 mb-4 text-2xl lg:text-3xl scroll-mt-20;
+    } 
+    .markdown-body > h1:first-child {
+        @apply mt-0;
+    }
+    .markdown-body > p {
+        @apply my-0.5;
+    }
+    .markdown-body > ul {
+        @apply py-2 pl-8 list-disc;
+    }
+    .markdown-body code {
+        @apply px-1 bg-gray-600 rounded;
+    }
+    .markdown-body a {
+        @apply text-blue-500 underline;
+    }
+}
+
+@layer utilities {
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
