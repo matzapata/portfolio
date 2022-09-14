@@ -9,7 +9,7 @@ function ExperienceCard({
     description
 }) {
     return (
-        <div className="flex py-2 space-x-3">
+        <div className="flex py-4 space-x-3">
             <img className="w-12 h-12 mt-1" src={companyImageUrl} alt={company} />
             <div>
                 <h2 className="text-lg font-medium">{title}</h2>

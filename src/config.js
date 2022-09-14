@@ -1,6 +1,7 @@
 
 const config = {
-    about: "Full stack developer and electronic engineering student passionate about technology and its application in business. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+    about: "Full stack developer and electronic engineering student passionate about technology and it's application in business. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+    cvDownloadLink: "https://drive.google.com/uc?export=download&id=10nv7Tj7TEzenB9P_Vk2sAiVNZGXUhK8R",
     education: [
         {
             institution: "Henry",
@@ -32,7 +33,7 @@ const config = {
             title: "KiriFan propulsion team member",
             company: "KiriFan",
             companyImageUrl: "/images/kiri-fan.jpg",
-            description: "Design and manufacture of embedded systems for data collection: and control of a BLDC motor for the Shell eco marathon: competition.",
+            description: "KiriFan is an academic team developing energy efficient electric cars to compete in the Shell Eco Marathon. In this case, I was part of the propulsion team in charge of the development of the electronics necessary for the operation of the car. I was in charge not only of the development of embedded systems for data collection and control of a BLDC engine but also of administrative aspects such as getting sponsors and managing public relations.",
             timeSpan: "2019 - 2020 · 1 years",
             place: "Buenos Aires, Argentina",
         },
@@ -40,7 +41,7 @@ const config = {
             title: "Product design",
             company: "Kraken",
             companyImageUrl: "/images/placeholder.jpg",
-            description: "3D design of mechanical parts for an auto accessories company.",
+            description: "Together with the creator of this SME, I was in charge of materializing the development of a retractable lid for trucks. Here I learned to value the iterative process of product improvement focused on the consumer. I also learned to have a vision of the production process from the conception of the design.",
             timeSpan: "2019 - 2021 · 2 years",
             place: "Buenos Aires, Argentina",
         },
@@ -48,6 +49,7 @@ const config = {
             title: "Design and manufacture of 3D printed parts",
             company: "Freelance",
             companyImageUrl: "/images/placeholder.jpg",
+            description: "I assisted different clients with a wide range of requirements in the development of product designs and their corresponding 3D printing prototyping. Successfully face the different challenges that this technology entails and achieve customer satisfaction in all cases.",
             timeSpan: "2018 - present",
             place: "Buenos Aires, Argentina",
         },
@@ -56,25 +58,27 @@ const config = {
             company: "ArqRaz",
             companyImageUrl: "/images/placeholder.jpg",
             timeSpan: "2017 - 2018",
-            description: "Design of 2D and 3D architectonic blueprints for family homes",
+            description: "I used my Autocad design skills to take sketches from paper to computer enabling technical development. Also generated 3D designs and renders from their corresponding 2D counterparts for better visualization of the project by the construction company's clients.",
             place: "Buenos Aires, Argentina",
         },
     ],
-    skills: [
-        "Javascript",
-        "React",
-        "Redux with redux toolkit",
-        "Typescript",
-        "Css",
-        "Css frameworks like bootstrap, bulma and tailwindcss",
-        "Chakra UI",
-        "Node",
-        "Express",
-        "C",
-        "HTML",
-        "Bash",
-        "Linux",
-    ]
+    skills: {
+        Languages: [ "Javascript",  "Typescript",  "HTML", "CSS", "Python", "C++",  "C" ],
+        Frontend: [
+            "React",
+            "Redux",
+            "Redux toolkit",
+            "Nextjs",
+            "ChakraUI",
+            "Tailwindcss",
+            "Bootstrap",
+            "Supabase",
+            "Firebase",
+        ],
+        Backend: [ "Express", "Sequelize", "Prisma" ],
+        Databases: [ "PostgreSQL", "firebase" ],
+        Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux" ]
+    }
 };
 
 export default config;
