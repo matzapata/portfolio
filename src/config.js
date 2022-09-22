@@ -30,6 +30,22 @@ const config = {
     ],
     experience: [
         {
+            title: "Fullstack developer",
+            company: "Devjet",
+            companyImageUrl: "/images/henry.jpg",
+            description: "Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.",
+            timeSpan: "2022 - present",
+            place: "Buenos Aires, Argentina",
+        },
+        {
+            title: "[Academic] Fullstack developer",
+            company: "Henry",
+            companyImageUrl: "/images/henry.jpg",
+            description: "Worked building two fullstack web pages with a PERN stack. The first one of them was an individual project that make use of the-dog-api and a server to showcase dog breeds, the second one of them was a sports betting platform built with a team of 6 people using the agile method and incorporating multiple integrations like auth0, mercadopago, etc.",
+            timeSpan: "2022",
+            place: "Buenos Aires, Argentina",
+        },
+        {
             title: "KiriFan propulsion team member",
             company: "KiriFan",
             companyImageUrl: "/images/kiri-fan.jpg",
