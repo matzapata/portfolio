@@ -3,7 +3,7 @@ function Hello() {
     return (
         <div className='relative flex flex-col justify-between flex-1 py-20 bg-cover lg:py-32 px-7 lg:px-20'>
             <div>
-                <p className="text-lg text-[#E5E9F0] font-fira-code">Hi all. I'am</p>
+                <p className="text-lg text-[#E5E9F0] font-fira-code">Hi all. I am</p>
                 <h1 className="font-fira-code text-[#E5E9F0] text-6xl mt-2">Matias Zapata</h1>
                 <p className="text-[#43D9AD] font-fira-code text-xl mt-2">{">"} Full stack developer</p>
             </div>

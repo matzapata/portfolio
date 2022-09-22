@@ -32,7 +32,7 @@ const config = {
         {
             title: "Fullstack developer",
             company: "Devjet",
-            companyImageUrl: "/images/henry.jpg",
+            companyImageUrl: "/images/usedevjet.svg",
             description: "Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.",
             timeSpan: "2022 - present",
             place: "Buenos Aires, Argentina",
