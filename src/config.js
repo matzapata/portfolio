@@ -1,6 +1,6 @@
 
 const config = {
-    about: "Full stack developer and electronic engineering student passionate about technology and it's application in business. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+    about: "Hi!! I'm Matias Zapata, full stack developer and electronic engineering student passionate about technology and it's application in business. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
     cvDownloadLink: "https://drive.google.com/uc?export=download&id=10nv7Tj7TEzenB9P_Vk2sAiVNZGXUhK8R",
     education: [
         {
@@ -74,10 +74,11 @@ const config = {
             "Bootstrap",
             "Supabase",
             "Firebase",
+            "Figma",
         ],
         Backend: [ "Express", "Sequelize", "Prisma" ],
         Databases: [ "PostgreSQL", "firebase" ],
-        Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux" ]
+        Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux", "eslint" ]
     }
 };
 

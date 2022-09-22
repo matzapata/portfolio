@@ -20,7 +20,7 @@ function Projects() {
 
             <File title="README.md" className="px-8 py-10 markdown-body" >
                 <h1 id="usedevjet" className="mb-2 text-2xl">Devjet</h1>
-                <p>Code receipes and generators to improve coding efficency for web development projects using a PERN stack. Built with Nextjs, Contentlayer, MDX, ChakraUI, Gluegun CLI and deployed on Vercel.</p>
+                <p>Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.</p>
                 <p>Visit at: <a href="https://www.usedevjet.com/">www.usedevjet.com</a></p>
 
                 <hr className="mt-6 border-gray-800"/>
@@ -32,13 +32,13 @@ function Projects() {
                 <hr className="mt-6 border-gray-800"/>
 
                 <h1 id="portfolio">Portfolio</h1>
-                <p>Portfolio website created with react and tailwindcss and deployed on netlify. Visit at: <a href="https://matiaszapata.netlify.app/">www.matiaszapata.netlify.app</a>.</p>
+                <p>Portfolio website created with react and tailwindcss, deployed on netlify. The idea of the project was to showcase a little bit about me on the internet, some of the projects i'm currently working on, my education, etc and give the visitors the opportunity to contact me. Visit at: <a href="https://matiaszapata.netlify.app/">www.matiaszapata.netlify.app</a>.</p>
                 
                 <hr className="mt-6 border-gray-800"/>
 
                 <h1 id="pi-dogs">PI dogs Henry</h1>
 
-                <p>Fullstack project that makes use of the-dog-api. Created with React, Express, Sequelize, Redux, Tailwindcss, Jest and deployed on Netlify and elephantsql for Henry's Individual Project.</p>
+                <p>Fullstack project that makes use of the-dog-api to showcase different dog breeds. The project allows users to make use of different filters and search posibilities. Also they are capable of adding their own breeds to the list. It was created with React, Express, Sequelize, Redux, Tailwindcss, Jest and deployed on Netlify and elephantsql for Henry's Individual Project.</p>
                 <p>The source code can be found here: <a href="https://github.com/matzapata/PI-Dogs">matzapata/PI-Dogs</a></p>
                 <p>And the deployment at <a href="https://pi-dogs-zapata.netlify.app">pi-dogs-zapata.netlify.app</a></p>
 
@@ -51,7 +51,7 @@ function Projects() {
                 <hr className="mt-6 border-gray-800"/>
                 
                 <h1 id="bootwindcss">Bootwindcss</h1>
-                <p>Library combining tailwindcss and bootstrap styles. Documentation page created with nuxt and deployed on netlify. Currently deprecated, would not use in any project, instead i would chose another tool like flowbite or chakra but helped me develop css skills.</p>
+                <p>Library combining tailwindcss and bootstrap styles. Documentation page created with nuxt and deployed on netlify. Currently deprecated, would not use in any project, instead i would chose another tool like flowbite or chakra-ui but it helped me develop css skills.</p>
                 <p>The source code can be found here: <a href="https://github.com/matzapata/bootwindscss">matzapata/bootwindscss</a></p>
                 <p>And the documentation website build with nuxtjs and deployed on netlify can be found here: <a href="https://bootwindscss.netlify.app/">Bootwindcss</a></p>
                 
