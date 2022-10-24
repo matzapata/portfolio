@@ -1,6 +1,6 @@
 
 const config = {
-    about: "Hi!! I'm Matias Zapata, full stack developer and electronic engineering student passionate about technology and it's application in business. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+    about: "Hi!! I'm Matias Zapata, full stack developer and advanced electronic engineering student passionate about technology and it's application in business. Experienced with Nodejs, React, Redux, Typescript, SQL, C, C++ among others. With creative thinking, autonomy and team working. Participated as a propulsion team member in the Shell Eco Marathon where we won a podium in LATAM.",
     cvDownloadLink: "https://drive.google.com/uc?export=download&id=10nv7Tj7TEzenB9P_Vk2sAiVNZGXUhK8R",
     education: [
         {
@@ -30,11 +30,11 @@ const config = {
     ],
     experience: [
         {
-            title: "Fullstack developer",
-            company: "Devjet",
-            companyImageUrl: "/images/usedevjet.svg",
-            description: "Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.",
-            timeSpan: "2022 - present",
+            title: "Freelance fullstack developer",
+            company: "Freelance",
+            companyImageUrl: "/images/placeholder.jpg",
+            description: "Freelance project developed for MJinversiones. Involved the integration of the Binance and Cryptomarket APIs to obtain real-time market data. An authentication system was implemented from scratch with JWT and the application was deployed in netlify.",
+            timeSpan: "Sep 2022",
             place: "Buenos Aires, Argentina",
         },
         {

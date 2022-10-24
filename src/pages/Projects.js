@@ -9,6 +9,7 @@ function Projects() {
             <Breadcrumb current="_projects"/>
 
             <FileTree>
+                <FileLink name="DOME.md" to="#DOME"  />
                 <FileLink name="Devjet.md" to="#usedevjet"  />
                 <FileLink name="Eid.md" to="#eid"  />
                 <FileLink name="Portfolio.md" to="#portfolio" />
@@ -19,6 +20,13 @@ function Projects() {
             </FileTree>
 
             <File title="README.md" className="px-8 py-10 markdown-body" >
+                <h1 id="DOME" className="mb-2 text-2xl">DOME</h1>
+                <p>Dome is an IOT system that tries to solve the installation problem when trying to make your home smarter. Current solutions typically require specialists to make the installation and lack a good ui/ux. That's why I created DOME, replace your current wall switches and sockets, connect them to the app and share access with your family. Also, the device will include mechanical switches so that you decide what's more convenient for each situation. The tech stack used is: React native with typescript, redux-toolkit, tailwindcss, firebase, C++ for esp8266 and altium for pcb design.</p>
+                <p>Figma designs at: <a href="https://www.figma.com/file/vcR1ODs3bJzUiS0fuz7EVW/DOME?node-id=1102%3A9203">www.figma.com</a></p>
+                <p>Code at: <a href="https://github.com/matzapata/dome">github.com/matzapata/dome</a></p>
+
+                <hr className="mt-6 border-gray-800"/>
+                
                 <h1 id="usedevjet" className="mb-2 text-2xl">Devjet</h1>
                 <p>Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.</p>
                 <p>Visit at: <a href="https://www.usedevjet.com/">www.usedevjet.com</a></p>
