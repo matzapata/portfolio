@@ -25,18 +25,6 @@ function AboutMe() {
                 <p>{config.about}</p>
                 <hr className="mt-6 border-gray-800" />
 
-                <h1 id="education">Education</h1>
-                {config.education.map((ed, index) => (
-                    <EducationCard
-                        key={index}
-                        institution={ed.institution}
-                        institutionImageUrl={ed.institutionImageUrl}
-                        title={ed.title}
-                        timeSpan={ed.timeSpan}
-                    />
-                ))}
-                <hr className="mt-6 border-gray-800" />
-
                 <h1 id="experience" >Experience</h1>
                 {config.experience.map((exp, index) => (
                     <ExperienceCard
@@ -50,6 +38,20 @@ function AboutMe() {
                     />
                 ))}
                 <hr className="mt-6 border-gray-800" />
+
+                <h1 id="education">Education</h1>
+                {config.education.map((ed, index) => (
+                    <EducationCard
+                        key={index}
+                        institution={ed.institution}
+                        institutionImageUrl={ed.institutionImageUrl}
+                        title={ed.title}
+                        timeSpan={ed.timeSpan}
+                    />
+                ))}
+                <hr className="mt-6 border-gray-800" />
+
+            
 
                 <h1 id="skills" >Skills</h1>
                 {Object.keys(config.skills).map((s, i) => (

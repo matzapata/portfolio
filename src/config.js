@@ -30,6 +30,14 @@ const config = {
     ],
     experience: [
         {
+            title: "Fullstack developer",
+            company: "SphereOne",
+            companyImageUrl: "/images/SphereOne.jpeg",
+            description: "I play a vital role as one of the early team members, extensively involved in all aspects of the product. My contributions focused on developing core features, including payment routes creation and execution, as well as creating and managing wallets and keys for users. I also gained proficiency in app development using React Native and actively utilized my product ownership skills to enhance the user experience. Additionally, I immersed myself in the web3 world, developing solutions involving solidity, smart wallets, decentralized exchanges (DEXes), and bridges. Agile in approach, I consistently delivered high-quality results within demanding deadlines. Not only developed code but also I’ve been part of the QA testing and unit tests development. Super active team member, jumping in calls every time to provide help where’s needed and contribute feedback on code quality for pull requests reviews. Also worked in web development with react, typescript, tailwindcss, redux, and more.",
+            timeSpan: "Nov 2022 - Present",
+            place: "Austin, Texas, USA (Remote)",
+        },
+        {
             title: "Freelance fullstack developer",
             company: "Freelance",
             companyImageUrl: "/images/placeholder.jpg",

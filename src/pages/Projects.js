@@ -29,7 +29,7 @@ function Projects() {
                 
                 <h1 id="usedevjet" className="mb-2 text-2xl">Devjet</h1>
                 <p>Devjet is a website that helps web developers build faster by providing code recipes and generators to work with PERN or NEXTJS stacks. I’ve worked building the website from scratch with nextjs, typescript, chakraui, MDX, supabase and deployed it on vercel. The CLI that generates code is build with typescript and gluegun. I currently work writing posts and code generators as content for it.</p>
-                <p>Visit at: <a href="https://www.usedevjet.com/">www.usedevjet.com</a></p>
+                <p>Visit at: <a href="https://devjet.vercel.app/">devjet.vercel.app</a></p>
 
                 <hr className="mt-6 border-gray-800"/>
                 
