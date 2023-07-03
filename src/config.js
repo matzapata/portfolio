@@ -107,8 +107,8 @@ const config = {
             "firebase",
             "figma",
         ],
-        Backend: [ "Express", "Sequelize", "Prisma" ],
-        Databases: [ "PostgreSQL", "firebase" ],
+        Backend: [ "express", "sequelize", "prisma" ],
+        Databases: [ "postgres (sql)", "firebase (no-sql)", "mongodb (no-sql)", "redis" ],
         Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux", "eslint", "prettier" ]
     }
 };
