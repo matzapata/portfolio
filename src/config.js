@@ -1,8 +1,14 @@
 
 const config = {
-    about: "Hi!! I'm Matias Zapata, full stack developer and advanced electronic engineering student passionate about technology and it's application in business. Experienced with Nodejs, React, Redux, Typescript, SQL, C, C++ among others. With creative thinking, autonomy and team working. Participated as a propulsion team member in the Shell Eco Marathon where we won a podium in LATAM.",
-    cvDownloadLink: "https://drive.google.com/uc?export=download&id=10nv7Tj7TEzenB9P_Vk2sAiVNZGXUhK8R",
+    about: "Hi, I'm Matias Zapata, a full-stack developer with a strong passion for technology and its applications in business. I excel in Node.js, React, Redux, Typescript, SQL, C, C++, and more. I have hands-on experience with app development using React Native and have dived into the web3 realm, working on solutions involving smart wallets, decentralized exchanges (DEXes), bridges, etc. As an agile and proactive team member, I actively contributed to core feature development, payment systems, wallet management, and user experience enhancements. Beyond coding, I participated in QA testing and provided valuable feedback during pull request reviews. I also participated as a propulsion team member in the Shell Eco Marathon where we won a podium in LATAM!",
+    cvDownloadLink: "https://drive.google.com/uc?export=download&id=1bjqX2QXtTdqkntlhPSyU2MTR1zVLxlo-", 
     education: [
+        {
+            institution: "Platzi",
+            institutionImageUrl: "/images/platzi.jpeg",
+            title: "Solidity",
+            timeSpan: "feb. 2023",
+        },
         {
             institution: "Henry",
             institutionImageUrl: "/images/henry.jpg",
@@ -87,22 +93,23 @@ const config = {
         },
     ],
     skills: {
-        Languages: [ "Javascript",  "Typescript",  "HTML", "CSS", "Python", "C++",  "C" ],
+        Languages: [ "javascript",  "typescript",  "HTML", "CSS", "python", "C++",  "C" ],
         Frontend: [
-            "React",
-            "Redux",
-            "Redux toolkit",
-            "Nextjs",
-            "ChakraUI",
-            "Tailwindcss",
-            "Bootstrap",
-            "Supabase",
-            "Firebase",
-            "Figma",
+            "react",
+            "redux",
+            "react-native",
+            "redux toolkit",
+            "nextjs",
+            "chakraUI",
+            "tailwindcss",
+            "bootstrap",
+            "supabase",
+            "firebase",
+            "figma",
         ],
         Backend: [ "Express", "Sequelize", "Prisma" ],
         Databases: [ "PostgreSQL", "firebase" ],
-        Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux", "eslint" ]
+        Devtools: [ "git", "vercel", "netlify", "railways", "scrum", "linux", "eslint", "prettier" ]
     }
 };
 
