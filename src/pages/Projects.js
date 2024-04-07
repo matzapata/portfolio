@@ -18,16 +18,6 @@ function Projects() {
                         to={`#${project.name}`}
                     />
                 ))}
-
-                {/* 
-                <FileLink name="DOME.md" to="#DOME" />
-                <FileLink name="Devjet.md" to="#usedevjet" />
-                <FileLink name="Eid.md" to="#eid" />
-                <FileLink name="Portfolio.md" to="#portfolio" />
-                <FileLink name="Pi dogs.md" to="#pi-dogs" />
-                <FileLink name="Prodemaster pg.md" to="#pg-prodemaster" />
-                <FileLink name="Bookbinding.md" to="#bookbinding" />
-                <FileLink name="Bootwindcss.md" to="#bootwindcss" isLastChild /> */}
             </FileTree>
 
             <File title="README.md" className="px-8 py-10 markdown-body divide-y divide-gray-700" >
