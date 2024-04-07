@@ -23,7 +23,9 @@ function AboutMe() {
             <File title="README.md" className="px-8 py-10 markdown-body divide-y divide-gray-700">
                 <div className="py-6 space-y-2">
                     <h1 id="about-me" className="text-lg font-medium">About me 👋</h1>
-                    <p>{config.about}</p>
+                    Hi, I'm Matias Zapata, a full-stack software developer. A short summary of my life for you quick reader: 'I just love building products with technology' all the rest is a subproduct of that underlying principle. Another important thing for you to know, I love learning and I hate ignorance so wathever you read here about what I know, is already out of date.
+                    <br />
+                    I have an electronics background so development in C and C++ is my root but the willingness to make products people use lead me to focus in Node.js, React, Nextjs, Typescript, SQL, and many languages and frameworks more. I have hands-on experience with app development using React Native and have dived into the web3 realm, working on solutions involving smart wallets, decentralized exchanges (DEXes), bridges, etc. As an agile and proactive team member, I actively contributed to core feature developments including payment systems, wallet management, and user experience. Beyond coding, I participated in QA testing and provided valuable feedback during pull request reviews. I also participated as a propulsion team member in the Shell Eco Marathon where we won a podium in LATAM!
                 </div>
 
                 <div className="py-6 space-y-2">

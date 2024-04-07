@@ -5,7 +5,7 @@ function Hello() {
             <div>
                 <p className="text-lg text-[#E5E9F0] font-fira-code">Hey! I'm</p>
                 <h1 className="font-fira-code text-[#E5E9F0] text-6xl mt-2">Matias Zapata</h1>
-                <p className="text-[#43D9AD] font-fira-code text-xl mt-2">{">"} Full stack software engineer</p>
+                <p className="text-[#43D9AD] font-fira-code text-xl mt-2">{">"} Full-stack software developer</p>
             </div>
             <div>
                 <p className="text-[#607B96] font-fira-code mb-2">// Looking for my github?</p>
