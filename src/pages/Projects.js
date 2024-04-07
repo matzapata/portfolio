@@ -2,25 +2,55 @@ import FileTree from "../components/FileTree";
 import FileLink from "../components/FileLink";
 import File from "../components/File";
 import Breadcrumb from "../components/Breadcrumb";
+import config from "../config";
 
 function Projects() {
     return (
         <>
-            <Breadcrumb current="_projects"/>
+            <Breadcrumb current="_projects" />
 
             <FileTree>
-                <FileLink name="DOME.md" to="#DOME"  />
-                <FileLink name="Devjet.md" to="#usedevjet"  />
-                <FileLink name="Eid.md" to="#eid"  />
+
+                {config.projects.map((project, index) => (
+                    <FileLink
+                        key={index}
+                        name={project.title}
+                        to={`#${project.name}`}
+                    />
+                ))}
+
+                {/* 
+                <FileLink name="DOME.md" to="#DOME" />
+                <FileLink name="Devjet.md" to="#usedevjet" />
+                <FileLink name="Eid.md" to="#eid" />
                 <FileLink name="Portfolio.md" to="#portfolio" />
                 <FileLink name="Pi dogs.md" to="#pi-dogs" />
                 <FileLink name="Prodemaster pg.md" to="#pg-prodemaster" />
                 <FileLink name="Bookbinding.md" to="#bookbinding" />
-                <FileLink name="Bootwindcss.md" to="#bootwindcss" isLastChild />
+                <FileLink name="Bootwindcss.md" to="#bootwindcss" isLastChild /> */}
             </FileTree>
 
-            <File title="README.md" className="px-8 py-10 markdown-body" >
-                <h1 id="DOME" className="mb-2 text-2xl">DOME</h1>
+            <File title="README.md" className="px-8 py-10 markdown-body divide-y divide-gray-700" >
+                {config.projects.map((project, index) => (
+                    <div key={index} className="py-6">
+                        <h1 id={project.name} className="mb-2 text-2xl">{project.title}</h1>
+                        <p>{project.description}</p>
+                        {project.links && (
+                            <div className="mt-2">
+                                <span className="font-bold">Links</span>
+                                <ul>
+                                    {project.links.map((link, index) => (
+                                        <li key={index}>
+                                            <a href={link.href}>{link.title}</a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+                    </div>
+                ))}
+
+                {/* <h1 id="DOME" className="mb-2 text-2xl">DOME</h1>
                 <p>Dome is an IOT system that tries to solve the installation problem when trying to make your home smarter. Current solutions typically require specialists to make the installation and lack a good ui/ux. That's why I created DOME, replace your current wall switches and sockets, connect them to the app and share access with your family. Also, the device will include mechanical switches so that you decide what's more convenient for each situation. The tech stack used is: React native with typescript, redux-toolkit, tailwindcss, firebase, C++ for esp8266 and altium for pcb design.</p>
                 <p>Figma designs at: <a href="https://www.figma.com/file/vcR1ODs3bJzUiS0fuz7EVW/DOME?node-id=1102%3A9203">www.figma.com</a></p>
                 <p>Code at: <a href="https://github.com/matzapata/dome">github.com/matzapata/dome</a></p>
@@ -67,8 +97,8 @@ function Projects() {
 
                 <h1 id="bookbinding">Bookbinding</h1>
                 <p>This CLI made with <code>gluegun</code> uses <code>pdf-lib</code> to given a book pdf, create the corresponding pagination for a bookbinding process of one page per booklet.</p>
-                <p>The source code can be found here: <a href="https://github.com/matzapata/bookbinding">matzapata/bookbinding</a></p>
-                   
+                <p>The source code can be found here: <a href="https://github.com/matzapata/bookbinding">matzapata/bookbinding</a></p> */}
+
             </File>
         </>
     );

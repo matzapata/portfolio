@@ -18,7 +18,6 @@ function FolderLink({
                     <p className={`text-dark-${active ? "100" : "200"} font-fira-code text-sm`}>{name}</p>
                 </div>
                 <p className="text-sm text-dark-300 font-fira-code lg:w-52">{commitMessage}</p>
-                <p className="hidden text-sm text-dark-300 font-fira-code lg:block">1 month ago</p>
             </div>
         </a>
     );

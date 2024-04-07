@@ -16,7 +16,9 @@ function FileTree({ children }) {
                     </Link>
                 </div>
             </div>
-            {children}
+            <div className="divide-y ">
+                {children}
+            </div>
         </div>
     );
 }

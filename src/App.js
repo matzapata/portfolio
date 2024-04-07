@@ -17,14 +17,16 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen bg-dark-600">
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Hello />} />
-        <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact-me" element={<Contact />} />
-        <Route path="/contact-me/thanks" element={<Thanks />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+      <div className="flex-1">
+        <Routes>
+          <Route path="/" element={<Hello />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact-me" element={<Contact />} />
+          <Route path="/contact-me/thanks" element={<Thanks />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
       <FindMe />
     </div>
   );
