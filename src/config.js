@@ -143,6 +143,17 @@ const config = {
     },
     projects: [
         {
+            name: "🔥 Forwarder Commerce. One-time addresses to interact with the blockchain in no time",
+            title: "🔥 Forwarder Commerce. One-time addresses to interact with the blockchain in no time",
+            description: "Create one-time addresses for payments so anyone can pay on your website in 2 seconds no matter which wallet they use. Forcing to have metamask, coinbase, etc is friction we want to remove. Created a forwarder contract in solidity to properly link one deposit with one payment. To improve gas efficiency I did a contract factory for deployment while leveraging CREATE2 to avoid upfront costs. Also did a CLI with a custom SQL job queue to poll and withdraw funds accordingly.",
+            links: [
+                {
+                    title: "Source code",
+                    href: "https://github.com/matzapata/forwarder-commerce"
+                }
+            ]
+        },
+        {
             name: "🔥 EXPLAINIT. AI powered documentation",
             title: "🔥 EXPLAINIT. AI powered documentation",
             description: "Explain it takes a url for a documentation website, crawls all the information from it and loads it into a vector database to later create an interactive chat powered by AI that can answer any question about it in a precise way. I used nestjs for the backend with postgres using pgvector for the vector database and nextjs for the frontend. For payments provider I used lemonsqueezy and the deployment was done through docker images to railways. For the ai chat I leveraged gpt apis and langchain.",
